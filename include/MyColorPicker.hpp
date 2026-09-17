@@ -7,4 +7,7 @@ namespace MyTools {
     };
 
     HSVRange showColorPicker(const cv::Mat& img);
+
+    void detectAllShapes(cv::Mat & img);
+
 }
